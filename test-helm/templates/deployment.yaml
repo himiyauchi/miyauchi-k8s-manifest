@@ -13,7 +13,7 @@ spec:
         app: mychart
     spec:
       containers:
-        - name: teas-calc
-          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/teas_calc:0.8
+        - name: calc
+          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/calc:0.1
           ports:
             - containerPort: 5042
