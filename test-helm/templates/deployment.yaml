@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: calc
-          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/calc:0.1
+          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/calc:0.2
           ports:
             - containerPort: 5042
