@@ -1,0 +1,6 @@
+metadata:
+  name: teas-calc
+replica: 2
+service:
+  type: LoadBalancer
+  port: 80

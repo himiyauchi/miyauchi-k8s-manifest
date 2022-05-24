@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.metadata.name }}
+spec:
+  replicas: {{ .Values.replica }}
+  selector:
+    matchLabels:
+      app: mychart
+  template:
+    metadata:
+      labels:
+        app: mychart
+    spec:
+      containers:
+        - name: teas-calc
+          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/teas_calc:0.8
+          ports:
+            - containerPort: 5042
