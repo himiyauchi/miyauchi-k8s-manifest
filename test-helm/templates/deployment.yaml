@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: calc
-          image: {{ .Values.image-version }}
+          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/calc:{{ .Values.image-version }}
           # image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/calc:0.6
           ports:
             - containerPort: 5042
