@@ -1,0 +1,1 @@
+# miyauchi-k8s-manifest
