@@ -1,8 +1,8 @@
 metadata:
   name: calc
 replica: 2
-image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/calc:0.6
+repo: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/calc
+imgv: 0.6
 service:
   type: LoadBalancer
   port: 80
-  
