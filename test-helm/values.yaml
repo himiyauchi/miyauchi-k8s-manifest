@@ -1,1 +1,6 @@
-imageversion: 0.6
+metadata:
+  name: calc
+replica: 2
+service:
+  type: LoadBalancer
+  port: 80
