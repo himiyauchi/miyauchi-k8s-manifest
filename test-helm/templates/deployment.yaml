@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .values.metadata.name }}
+  name: {{ .values.deploy.metadata.name }}
 spec:
-  replicas: {{ .values.replica }}
+  replicas: {{ .values.deploy.replica }}
   selector:
     matchLabels:
       app: mychart
