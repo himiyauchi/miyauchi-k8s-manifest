@@ -3,7 +3,17 @@ entries:
   test-helm:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2022-05-25T02:46:55.315593514-04:00"
+    created: "2022-05-25T02:50:47.169762976-04:00"
+    description: A Helm chart for Kubernetes
+    digest: ee265e247ce192df14aa71c7d7a8a506d0a387568b5a3e51640d511ad5e0442b
+    name: test-helm
+    type: application
+    urls:
+    - https://himiyauchi.github.io/miyauchi-k8s-manifest/test-helm-v0.18.tgz
+    version: v0.18
+  - apiVersion: v2
+    appVersion: 1.18.0
+    created: "2022-05-25T02:50:47.16958654-04:00"
     description: A Helm chart for Kubernetes
     digest: 803b278887eb0b46c966dde672b62dcdfe2a20fe636f5ba2caa75d01237ba2ef
     name: test-helm
@@ -13,7 +23,7 @@ entries:
     version: v0.17
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2022-05-25T02:46:55.31539653-04:00"
+    created: "2022-05-25T02:50:47.169382491-04:00"
     description: A Helm chart for Kubernetes
     digest: 0e7bea103ca087599ae0f3b812b86d6236dd57ebe46f298984e847a6d006c618
     name: test-helm
@@ -23,7 +33,7 @@ entries:
     version: v0.16
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2022-05-25T02:46:55.315176216-04:00"
+    created: "2022-05-25T02:50:47.169178357-04:00"
     description: A Helm chart for Kubernetes
     digest: 4962fab3989784b586e8e942adde459c82720fbc25bd5be9784d989b15f64a9f
     name: test-helm
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://himiyauchi.github.io/miyauchi-k8s-manifest/test-helm-v0.15.tgz
     version: v0.15
-generated: "2022-05-25T02:46:55.31460595-04:00"
+generated: "2022-05-25T02:50:47.16877747-04:00"
