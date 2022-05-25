@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: calc
-          image: {{ .Values.image }}:{{ .Values.imgv }}
+          image: {{ .Values.repo }}:{{ .Values.imgv }}
           ports:
             - containerPort: 5042
