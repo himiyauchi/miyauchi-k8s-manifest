@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/himiyauchi/miyauchi-k8s-manifest.git'
     path: test-helm
-    targetRevision: '0.4'
+    targetRevision: '0.6'
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
