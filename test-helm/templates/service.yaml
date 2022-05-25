@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: {{ .Values.metadata.name }}
 spec:
-  type: {{ .Values.service.type }}
+  type: LoadBalancer
   ports:
-    - port: {{ .Values.service.port }}
+    - port: 80
       targetPort: 5042
       protocol: TCP
   selector:
