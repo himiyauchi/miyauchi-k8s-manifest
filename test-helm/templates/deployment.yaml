@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: calc
+  name: {{ .Values.metadata.name }}
 spec:
-  replicas: 2
+  replicas: {{ .Values.replica }}
   selector:
     matchLabels:
       app: mychart
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: calc
-          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/calc:{{ .Values.imageversion }}
+          image: 226104789339.dkr.ecr.ap-northeast-1.amazonaws.com/calc:0.6
           ports:
             - containerPort: 5042
