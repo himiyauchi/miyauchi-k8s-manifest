@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  test-helm:
+  - apiVersion: v2
+    appVersion: 1.18.0
+    created: "2022-05-25T15:28:17.9003621+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 4962fab3989784b586e8e942adde459c82720fbc25bd5be9784d989b15f64a9f
+    name: test-helm
+    type: application
+    urls:
+    - https://himiyauchi.github.io/miyauchi-k8s-manifest/test-helm-v0.15.tgz
+    version: v0.15
+generated: "2022-05-25T15:28:17.8930455+09:00"
